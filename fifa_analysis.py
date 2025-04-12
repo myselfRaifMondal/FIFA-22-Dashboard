@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 
 st.set_page_config(layout="wide", page_title="FIFA 22 Match Analysis")
 
@@ -52,8 +53,6 @@ with col3:
 
 # Charts section
 st.subheader("📈 Possession vs Goals Trend")
-
-import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots(figsize=(10, 4))
 
